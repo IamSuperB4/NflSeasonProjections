@@ -1,9 +1,17 @@
+using NFL.Database.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+builder.Services.AddDbContext<NflContext>(options => options.UseSqlServer(
+    builder.Configuration.GetConnectionString("ConnectionString")));
+
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

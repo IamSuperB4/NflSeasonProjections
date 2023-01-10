@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFL.Database", "NFL.Databas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFL.Sandbox", "NFL.Sandbox\NFL.Sandbox.csproj", "{40882372-3D17-4B52-942C-54A0E31AEAA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFL.Dto", "NFL.Dto\NFL.Dto.csproj", "{AE73548C-EA20-4D4F-9A4C-943242E20DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFL.Common", "NFL.Common\NFL.Common.csproj", "{33FB7E27-B0D9-41A6-A910-5C03758E58AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{40882372-3D17-4B52-942C-54A0E31AEAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40882372-3D17-4B52-942C-54A0E31AEAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40882372-3D17-4B52-942C-54A0E31AEAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE73548C-EA20-4D4F-9A4C-943242E20DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE73548C-EA20-4D4F-9A4C-943242E20DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE73548C-EA20-4D4F-9A4C-943242E20DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE73548C-EA20-4D4F-9A4C-943242E20DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FB7E27-B0D9-41A6-A910-5C03758E58AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FB7E27-B0D9-41A6-A910-5C03758E58AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FB7E27-B0D9-41A6-A910-5C03758E58AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FB7E27-B0D9-41A6-A910-5C03758E58AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
